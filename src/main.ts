@@ -2,7 +2,7 @@ import * as core from '@actions/core'
 import {wait} from './wait'
 
 async function run(): Promise<void> {
-  core.debug(core.getInput('checkArray'))
+  core.info(core.getInput('checkArray'))
 
   // try {
   //   const ms: string = core.getInput('milliseconds')

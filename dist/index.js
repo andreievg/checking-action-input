@@ -42,7 +42,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 const core = __importStar(__nccwpck_require__(186));
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
-        core.debug(core.getInput('checkArray'));
+        core.info(core.getInput('checkArray'));
         // try {
         //   const ms: string = core.getInput('milliseconds')
         //   core.debug(`Waiting ${ms} milliseconds ...`) // debug is only output if you set the secret `ACTIONS_STEP_DEBUG` to true
