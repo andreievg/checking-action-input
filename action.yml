@@ -3,7 +3,6 @@ description: 'Checkiong action input'
 author: 'Not Applkicable'
 inputs:
   checkArray: # change this
-    required: true
     description: 'input description here'
 runs:
   using: 'node16'
